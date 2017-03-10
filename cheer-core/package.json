@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "buttercms": "^1.0.10",
     "ejs": "2.3.4",
     "envs": "^0.1.6",
     "grunt": "1.0.1",
