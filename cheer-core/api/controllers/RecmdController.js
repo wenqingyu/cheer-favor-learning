@@ -21,7 +21,14 @@ module.exports = {
         }
 
         raccoon.liked(req.query.userid, req.query.postid).then(() => {
-            return res.send('liked!')
+            Post.findOne({id: 1}).exec(function(err, post){
+                console.log(err, post);
+                res.send(post);
+            })
+            
+
+
+            // return res.send('liked!')
         });
     },
 

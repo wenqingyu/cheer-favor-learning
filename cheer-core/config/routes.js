@@ -33,7 +33,7 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
+    view: 'home'
   },
 
   'get /recmd/like': 'RecmdController.like',
@@ -49,7 +49,9 @@ module.exports.routes = {
   'get /recmd/likedCount': 'RecmdController.likedCount',
 
 
-
+  'get /post/recmd': 'PostController.recmd',
+  'get /post/like': 'PostController.like',
+  'get /post/dislike': 'PostController.dislike',
 
 
 

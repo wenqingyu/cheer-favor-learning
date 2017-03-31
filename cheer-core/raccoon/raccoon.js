@@ -1,9 +1,3 @@
-var envs = require('envs');
-
-process.env['RACCOON_REDIS_URL'] = 'localhost'
-process.env['RACCOON_REDIS_PORT'] = '6379'
-process.env['RACCOON_REDIS_AUTH'] = '8JCJSNO2A4jWve2e0fLwZ16rZsihO0wW'
-
 const raccoon = require('raccoon');
 
 // these are the default values but you can change them

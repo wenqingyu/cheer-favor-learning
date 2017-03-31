@@ -5,6 +5,8 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "async": "^2.1.5",
+    "bootstrap": "^3.3.7",
     "buttercms": "^1.0.10",
     "ejs": "2.3.4",
     "envs": "^0.1.6",
@@ -26,7 +28,9 @@
     "redis": "^2.6.5",
     "redis-server": "^1.1.0",
     "sails": "~0.12.11",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "vue": "^2.2.2",
+    "vue-resource": "^1.2.1"
   },
   "scripts": {
     "debug": "node debug app.js",
